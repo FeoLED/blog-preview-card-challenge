@@ -1,0 +1,86 @@
+*{
+    font-family: "Figtree", sans-serif;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 100vh;
+    justify-content: center;
+}
+style, title{
+    display:none;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    max-width:50%;
+    min-width: 300px;
+    border: 1px solid hsl(0, 0%, 7%);
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    padding:15px;
+    box-shadow: 7px 7px hsl(0, 0%, 7%);
+    min-height: 500px;
+    overflow:scroll;
+    margin-bottom: 11px;
+}
+.cardDeco{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.attribution{
+    display: inline;
+    text-align: center;
+    margin-top: auto;
+   
+}
+.publishingDateText, .descriptionText, .titleText, .author, .authorPicture, .authorName{
+    background-color: hsl(0, 0%, 100%);
+}
+
+a{
+    display: inline-flex;
+    color:black;
+}
+a:hover{
+    text-shadow: 1px 1px 1px hsl(0, 0%, 100%);
+}
+.author{
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+}
+.authorName{
+    font-size: 16px;
+    font-weight: 800;
+    padding: 0px 15px;
+}
+.authorPicture{
+    max-width: 35px;
+}
+.topicText, .publishingDateText, .titleText, .descriptionText{
+    margin-right: auto;
+}
+
+.topicText{
+    font-weight: 800;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.titleText{
+    font-size:x-large;
+    font-weight: 800;
+}
+.descriptionText{
+    color:hsl(0, 0%, 42%);
+    line-height: 1.5;
+    font-weight: 500;
+}
+.publishingDateText{
+    font-size:16px;
+    font-weight:500;
+}
+
+.topicText, .publishingDateText, .titleText{
+    margin-bottom: 2px;
+}
