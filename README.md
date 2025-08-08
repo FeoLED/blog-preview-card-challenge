@@ -6,15 +6,13 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -37,9 +35,9 @@ Phone preview:
 
 ### Links
 
-- Solution URL: ![](https://github.com/FeoLED/blog-preview-card-challenge)
+- Solution URL: ![GitHub repository](https://github.com/FeoLED/blog-preview-card-challenge)
 
-- Live Site URL: ![](https://feoled.github.io/blog-preview-card-challenge/)
+- Live Site URL: ![Live Site](https://feoled.github.io/blog-preview-card-challenge/)
 
 
 ## My process
@@ -84,5 +82,5 @@ Knowing that there'll be more complex project, I want to keep developing these m
 
 ## Author
 
-- Website - ![](https://github.com/FeoLED)
+- Website - ![GitHub profile](https://github.com/FeoLED)
 - Frontend Mentor - ![@FeoLED](https://www.frontendmentor.io/profile/FeoLED)
