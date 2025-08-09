@@ -50,34 +50,26 @@ Phone preview:
 
 ### What I learned
 
-I wouldn't say that I learned a lot doing this. Most of the process was just figuring out how to proceed and bumping into problems related with CSS (and the pain of solving them).
-
-For starters, a thing I like to do when I have to build the presentation is adding a border to the main container (and if there's no container, proceed to add it, and then putting the border).
-
-At the very beginning, I focused on the more "outsider" things, like the meta tags, removing the style tag to add a proper link connecting with the newly created stylesheet.
-
-As I was adding colors, at first I had to juggle with flexbox because when I applied it to one element, it affected the distribution of the child elements. So what I did? More divs.
-
-Okay there was this design problem where I didn't know how to align the text elements and the author section to the left. I tried with "display:flex" followed by "justify-items: left"...it didn't work. But then I got inspired by my past experience with "margin-top: auto" (this one to keep the footer at the bottom of the page) and assigned to the desired elements "margin-right: auto"...all to the left. 
-
-There is a particularly nasty problem I have near the end with the elements inside the card. When I reduced the browser's height (a foolish thing to focus on but I was paranoid) the elements near the bottom of the card broke free from the container!
-
-As i scrolled down, the text and the author box slid down, "floating" out of the card...
-
-I looked on Google, and it was an overflow problem...among the solutions there was the "overflow" property. I started to play with the different values and chose "scroll"
+   In the developing of this, I mostly reinforced things that I learned. The road consisted mostly on figuring out how to proceed and bumping into CSS related trouble.
+    For starters, I tend to apply borders on important containers to test boundaries and the space they occupy (and if there's no container, I create it to test)
+    At the beginning, I focused on the head elements, like meta tags, removing the style tag, and moving the styles to a external CSS file.
+    As I proceed to add colors, I had to juggle with how flexbox affected the display of inner elements. So what I did? More divs.
+    I faced a design problem attempting to align the card content to the left. Using flexbox and "justify-items:left" didn't work. Past experiences with "margin"* inspired me to try "margin-right:auto", solving the problem.
+    *This past experience is related with keeping the footer at the bottom of the page. It includes adding a display flex to the parent and then giving margin-top:auto to footer. If that worked for the footer, it must work for the elements in the card*
+    Near the end I got a particularly nasty problem with the card elements: While reducing the browser's height(a foolish thing to focus on but I was paranoid) the bottom elements broke out of the parent element. It gave a feeling that they were "sliding away". Further research told me it was an overflow problem.
+    Among the solutions presented, there was manipulating the "overflow" property. After trying different options, I default for "scroll":
 
 ```
 .card{
   overflow:scroll;
 }
 ```
-That meant that when the viewport's height changed, the card will generate a scrollbar, allowing to read the elements. I wasn't happy with this but it was the least ugly solution at the time.
+With this, when the viewport's height changes, the card will show a scrollbar, keeping the elements withing their righful boundaries. I wasn't happy with this but it was the least ugly solution at the time.
 
 
 ### Continued development
 
-I'm not quite familiar yet with the differents ways one can handle overflow and related techniques. 
-Knowing that there'll be more complex project, I want to keep developing these methods.
+I'm not quite familiar with overflow control methods. Knowing that future projects would be more complex, I want to learn more about content management. 
 
 
 ## Author
