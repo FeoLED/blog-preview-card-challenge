@@ -37,7 +37,7 @@ Phone preview:
 
 - Solution URL: ![GitHub repository](https://github.com/FeoLED/blog-preview-card-challenge)
 
-- Live Site URL: ![Live Site](https://feoled.github.io/blog-preview-card-challenge/)
+- Live Site URL:  https://feoled.github.io/blog-preview-card-challenge/
 
 
 ## My process
